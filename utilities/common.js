@@ -1,6 +1,6 @@
 import shayan from '../assets/images/shayan.png'
 import mercy from '../assets/images/mercy.jpeg'
-import abbas from '../assets/images/abbas.jpeg'
+import abbas from '../assets/images/Abbas.jpeg'
 
 const colors = {
     black : "rgba(0, 0, 0, 1)",
