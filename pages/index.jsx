@@ -35,8 +35,8 @@ export default function Home() {
         <title>Hasnat Portfolio</title>
         <link rel="icon" href={logo.src} />
         <title>Hasnat Ali</title>
-        <meta name="description" content="Hasnat Ali Bakhsh portfolio website. A web developer full of skills" key="desc" />
-        <meta property="og:title" content="Hasnat Ali Bakhsh portfolio" />
+        <meta name="description" content="Hasnat Ali portfolio website. A web developer full of skills" key="desc" />
+        <meta property="og:title" content="Hasnat Ali portfolio" />
         <meta
           property="og:description"
           content="Hasnat Ali portfolio website. A web developer full of skills"

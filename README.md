@@ -82,11 +82,11 @@
 
 > Mention all of the collaborators of this project.
 
-👤 Shayan
+👤 Hasnat
 
-- GitHub: [@githubhandle](https://github.com/shayan1234554321)
-- Twitter: [@twitterhandle](https://twitter.com/shayan123455432)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shayan-khan20/)
+- GitHub: [@githubhandle](https://github.com/hasnatali1947)
+- Twitter: [@twitterhandle](https://x.com/hasnatking1947)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hasnattali/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

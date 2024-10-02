@@ -9,9 +9,8 @@ import { mousemove, mouseout } from "../hooks/magnetic";
 import { motion } from "framer-motion";
 import {
   smbproject,
-  skupremeproject,
+  bookstore,
   robodialogproject,
-  sumiakaproject,
 } from "../utilities/imports";
 
 const Main = styled.div`
@@ -351,13 +350,6 @@ function Projects({ projects }) {
       visit: "https://robodialog.com/",
     },
     {
-      name: "SKUPREME",
-      image: skupremeproject,
-      description:
-        "SKUPREME is the most comprehensive solution for your business, in the form of a global inventory and marketplace integration software",
-      visit: "https://skupreme.com/",
-    },
-    {
       name: "SMB DigitalZone",
       image: smbproject,
       description:
@@ -365,11 +357,11 @@ function Projects({ projects }) {
       visit: "https://smbdigitalzone.com",
     },
     {
-      name: "SUMIAKA",
-      image: sumiakaproject,
+      name: "Book Store",
+      image: bookstore,
       description:
-        "SUMIAKA is an HR solution leveraging machine learning for cost-efficient and highly customizable employee hiring.",
-      visit: "https://www.linkedin.com/company/sumiaka/",
+        "Browse our wide selection of books and enjoy secure payments through Stripe for a smooth checkout. From bestsellers to timeless classics, find your next read with ease!",
+      visit: "https://smbdigitalzone.com",
     },
   ];
 
@@ -417,7 +409,7 @@ function Projects({ projects }) {
             opacity: 1,
           }}
         >
-          COMPANIES I WORKED WITH
+          PROJECTS
         </Desc>
         <Title
           initial={{

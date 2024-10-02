@@ -41,7 +41,8 @@ function Footer() {
   return (
     <FooterComp>
       <FooterContainer>
-        <img src={logo.src} alt="" />
+        {/* <img src={logo.src} alt="" /> */}
+        <h4>HASNAT</h4>
         <Ul fontSize={normal} >
           <li>
             <a href="https://drive.google.com/file/d/1ZIyfFOkMusKeHF4vUuMOyRD0WCInPN17/view?usp=sharing" target="_blank" >
@@ -49,12 +50,12 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/shayan-khan20/" target="_blank" >
+            <a href="https://www.linkedin.com/in/hasnattali/" target="_blank" >
               LINKEDIN
             </a>
           </li>
           <li>
-            <a href="https://github.com/shayan1234554321" target="_blank" >
+            <a href="https://github.com/hasnatali1947" target="_blank" >
               GITHUB
             </a>
           </li>

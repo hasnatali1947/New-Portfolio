@@ -87,26 +87,14 @@ const IconContainerRobodialog = styled(IconContainer)`
   }
 `;
 
-const IconContainerSkupreme = styled(IconContainer)`
+const IconContainerSMB = styled(IconContainer)`
   position: absolute;
   left: 20%;
   top: 30%;
+  background-color: ${({ backgroundColor }) => backgroundColor};
   @media (max-width: 769px) {
     top: 55%;
     left: 10%;
-    width: 20px;
-    height: 20px;
-  }
-`;
-
-const IconContainerSMB = styled(IconContainer)`
-  position: absolute;
-  right: 15%;
-  bottom: 40%;
-  background-color: ${({ backgroundColor }) => backgroundColor};
-  @media (max-width: 769px) {
-    bottom: 30%;
-    right: 5%;
     width: 20px;
     height: 20px;
   }
@@ -264,7 +252,7 @@ function Hero({ hero, contact }) {
             transition: { duration: 0.3 },
           }}
         >
-          I AM SHAYAN
+          I AM Hasnat
         </H1>
         <H3
           fontSize={normal}
@@ -277,11 +265,8 @@ function Hero({ hero, contact }) {
             transition: { duration: 0.6 },
           }}
         >
-          {/* Leveraging <Red>3D Technologies</Red>, Latest frameworks, and
-          innovative design to create applications that deliver
-          cutting-edge user experiences. */}
-          Experienced <Red>Full-stack Web developer and Founder</Red>, specializing in the MERN
-          stack, Figma, and seamless third-party integration.
+          Experienced <Red>Full-stack Web developer and Co-Founder</Red>, specializing in Next.js and 
+          Node.js. I bring ideas to life
         </H3>
         <CustomButton
           color={colors.blue}
@@ -304,27 +289,13 @@ function Hero({ hero, contact }) {
         onMouseOut={mouseout}
         shadow
         icon={robodialog}
-        description="Founder of ROBODIALOG"
+        description="Co-Founder of ROBODIALOG"
         width="25px"
         onClick={() => window.open("https://robodialog.com", "_blank")}
       />
-      <IconContainerSkupreme
-        initial={{ opacity: 0, marginTop: "30px" }}
-        whileInView={{
-          opacity: 1,
-          marginTop: "0px",
-          transition: { duration: 1 },
-        }}
-        onMouseMove={mousemove}
-        onMouseOut={mouseout}
-        shadow
-        icon={skupreme}
-        description="Worked As Frontend Developer At Skupreme"
-        width="20px"
-        onClick={() => window.open("https://skupreme.com/", "_blank")}
-      />
+   
       <IconContainerSMB
-        initial={{ opacity: 0, marginBottom: "-30px" }}
+        initial={{ opacity: 0, marginBottom: "30px" }}
         whileInView={{
           opacity: 1,
           marginBottom: "0px",

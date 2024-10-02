@@ -5,7 +5,6 @@ import fonts from "../hooks/font";
 import { IconContainer } from "../elements/button";
 import {
   microverse,
-  meta,
   express,
   figma,
   firebase,
@@ -16,16 +15,11 @@ import {
   materialUI,
   mongoDB,
   next,
-  rails,
   reactImage,
-  redux,
-  ruby,
-  google,
   aws,
   cloudinary,
   sanity,
   stripe,
-  three,
   brain,
   circuit,
   fire,
@@ -40,7 +34,7 @@ import { motion, useScroll } from "framer-motion";
 const ExpertiseContainer = styled.div`
   position: absolute;
   width: 65%;
-  min-width: 800px;
+  min-width: 500px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -72,13 +66,13 @@ const Expertise = () => {
         shadow
         description="Github"
       />
-      <IconContainer
+      {/* <IconContainer
         noLink
         icon={framermotion}
         width="25px"
         shadow
         description="Framer Motion"
-      />
+      /> */}
       <IconContainer
         noLink
         icon={html}
@@ -108,19 +102,19 @@ const Expertise = () => {
         shadow
         description="Next.js"
       />
-      <IconContainer
+      {/* <IconContainer
         noLink
         icon={fire}
         width="15px"
         shadow
         description="Fast Learner"
-      />
-      <IconContainer
+      /> */}
+      {/* <IconContainer
         noLink
         icon={socketIo}
         shadow
         description="Socket IO"
-      />
+      /> */}
       <IconContainer
         noLink
         icon={reactImage}
@@ -128,27 +122,27 @@ const Expertise = () => {
         shadow
         description="React / React Native"
       />
-      <IconContainer
+      {/* <IconContainer
         noLink
         icon={brain}
         width="20px"
         shadow
         description="Project Manager"
-      />
-      <IconContainer
+      /> */}
+      {/* <IconContainer
         noLink
         icon={puppeteer}
         width="25px"
         shadow
         description="Puppeteer"
-      />
-      <IconContainer
+      /> */}
+      {/* <IconContainer
         noLink
         icon={firebase}
         width="20px"
         shadow
         description="Firebase"
-      />
+      /> */}
       <IconContainer
         noLink
         icon={jest}
@@ -156,13 +150,13 @@ const Expertise = () => {
         shadow
         description="Jest"
       />
-      <IconContainer
+      {/* <IconContainer
         noLink
         icon={sanity}
         width="35px"
         shadow
         description="Sanity"
-      />
+      /> */}
       <IconContainer
         noLink
         icon={circuit}
@@ -177,7 +171,7 @@ const Expertise = () => {
         shadow
         description="Stripe"
       />
-      <IconContainer noLink icon={aws} shadow description="AWS" />
+      {/* <IconContainer noLink icon={aws} shadow description="AWS" /> */}
       <IconContainer noLink icon={cloudinary} shadow description="Cloudinary" />
     </ExpertiseContainer>
   );
@@ -261,44 +255,18 @@ const TechnologiesMobile = styled.div`
   }
 `;
 
-const Google = styled(motion.div)`
-  position: absolute;
-  right: 5%;
-  z-index: 2;
-  top: 20%;
-  @media (max-width: 769px) {
-    top: 25%;
-  }
-
-  @media (max-width: 426px) {
-    top: 34%;
-  }
-`;
-
-const Meta = styled(motion.div)`
-  position: absolute;
-  left: 15%;
-  z-index: 2;
-  @media (max-width: 769px) {
-    margin-top: 20px;
-  }
-
-  @media (max-width: 426px) {
-    margin-top: 200px;
-  }
-`;
-
 const Microverse = styled(motion.div)`
-  position: absolute;
-  right: 8%;
-  z-index: 2;
-  margin-top: 25%;
-  @media (max-width: 769px) {
-    margin-top: 30%;
-  }
-  @media (max-width: 426px) {
-    margin-top: 100%;
-  }
+position: absolute;
+right: 5%;
+z-index: 2;
+top: 20%;
+@media (max-width: 769px) {
+  top: 25%;
+}
+
+@media (max-width: 426px) {
+  top: 34%;
+}
 `;
 
 const Box = styled(motion.div)`
@@ -457,13 +425,11 @@ function About({ about }) {
           initial="initial"
           whileInView="whileInView"
         >
-          I am a full-stack web developer with over{" "}
-          <Red>Three years of experience</Red> , proficient in both frontend and
-          backend development. Specializing in{" "}
-          <Red>React, Next.js, Express, MongoDB and Node.js</Red> , I create
-          responsive designs, integrate third-party tools, and optimize for SEO.
-          My expertise extends to building robust backend architectures, and
-          design with Figma.
+          I am a highly skilled full-stack developer with expertise in{" "}
+          <Red>Html Css, React, Next.js and Node.js.</Red> I have worked in two companies,{" "}
+          <Red>RoboDialog and SMB Digital Zone</Red> where I contributed to projects like <Red>robodialog.com 
+            and smbdigitalzone.com,</Red> with over 1+ year of experience in the field. these projects have 
+            provided me with valuable experience and helped me thrive in a fast-paced environment.
         </Description>
       </AboutMe>
       <motion.h5
@@ -509,46 +475,6 @@ function About({ about }) {
         </TestimonialsContainer>
       </Testimonials>
 
-      <Google
-        onMouseMove={mousemove}
-        onMouseOut={mouseout}
-        variants={onScreenAnimation}
-        initial="initial"
-        whileInView="whileInView"
-        onClick={() =>
-          window.open(
-            "https://coursera.org/share/26db931519a929fa09fe1ac52dc9bc3e",
-            "_blank"
-          )
-        }
-      >
-        <IconContainer
-          shadow
-          icon={google}
-          tick
-          description="Certified From Google"
-        />
-      </Google>
-      <Meta
-        onMouseMove={mousemove}
-        onMouseOut={mouseout}
-        variants={onScreenAnimation}
-        initial="initial"
-        whileInView="whileInView"
-        onClick={() =>
-          window.open(
-            "https://coursera.org/share/dd640e24dc605bdad260dbc3eb67956a",
-            "_blank"
-          )
-        }
-      >
-        <IconContainer
-          shadow
-          icon={meta}
-          tick
-          description="Certified From META"
-        />
-      </Meta>
       <Microverse
         onMouseMove={mousemove}
         onMouseOut={mouseout}

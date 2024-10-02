@@ -34,6 +34,7 @@ import sumiakaproject from '../assets/images/sumiakaproject.png'
 import skupremeproject from '../assets/images/skupremeproject.png'
 import robodialogproject from '../assets/images/robodialogproject.png'
 import smbproject from '../assets/images/smbproject.png'
+import bookstore from '../assets/images/bookStoreImg.png'
 
 
 export {
@@ -72,5 +73,6 @@ export {
     firebase,
     ruby,
     rails,
-    jest
+    jest,
+    bookstore
 }

@@ -1,6 +1,6 @@
-import fahad from '../assets/images/fahad.png'
-import peter from '../assets/images/peter.png'
-import mathias from '../assets/images/mathias.png'
+import shayan from '../assets/images/shayan.png'
+import mercy from '../assets/images/mercy.jpeg'
+import abbas from '../assets/images/abbas.jpeg'
 
 const colors = {
     black : "rgba(0, 0, 0, 1)",
@@ -13,22 +13,22 @@ const colors = {
 
 const testimonials = [
     {
+        description: "Hasnat is an exceptional software developer with excellent collaborative skills and a standout problem-solving approach.",
+        image: shayan,
+        name: "Shayan Ali Bakhsh",
+        relation: "Founder"
+    },
+    {
         description: "Hasnat is an outstanding software developer with a knack for collaboration. Among his skillset, I can guarantee that his problem-solving approach is top of the game.",
-        image: mathias,
-        name: "Mathias Wismann",
+        image: mercy,
+        name: "MERCY MUGAMBI",
         relation: "Coding Partner"
     },
     {
-        description: "Hasnat showed great dedication, technical proficiency and creativity in his work. He was always willing to take on new challenges and put extra effort to meet deadlines.",
-        image: peter,
-        name: "Guanzheng Li",
-        relation: "Chief Technology Officer"
-    },
-    {
-        description: "Hasnat is one of the brightest developer I've ever met. I worked alongside him while building a Full Stack app, and in that time he proved his commitment and determination over and over again.",
-        image: fahad,
-        name: "Shah Fahad",
-        relation: "Founder"
+        description: "I've worked closely with Hasnat for a year and am consistently impressed by his web development skills. He is a talented and innovative developer who consistently delivers great results.",
+        image: abbas,
+        name: "Abbas Sarwar",
+        relation: "Full Stack Developer"
     },
 ]
 

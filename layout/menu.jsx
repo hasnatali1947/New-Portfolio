@@ -132,12 +132,13 @@ function Menu({ about , projects , contact }) {
   return (
     <Header>
       <HeaderContainer>
-        <img src={logo.src} alt="logo image" />
+        {/* <img src={logo.src} alt="logo image" /> */}
+        <h3>HASNAT</h3>
         <SocialLink>
-          <a href="https://github.com/shayan1234554321" target="_blank" >
+          <a href="https://github.com/hasnatali1947" target="_blank" >
             <img src={github.src} />
           </a>
-          <a href="https://www.linkedin.com/in/shayan-khan20/" target="_blank" >
+          <a href="https://www.linkedin.com/in/hasnattali/" target="_blank" >
             <img src={linkedin.src} />
           </a>
         </SocialLink>
