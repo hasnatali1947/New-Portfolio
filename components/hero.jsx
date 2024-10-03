@@ -252,7 +252,7 @@ function Hero({ hero, contact }) {
             transition: { duration: 0.3 },
           }}
         >
-          I AM Hasnat
+          I AM HASNAT
         </H1>
         <H3
           fontSize={normal}

@@ -143,7 +143,7 @@ function Menu({ about , projects , contact }) {
           </a>
         </SocialLink>
         <MenuList normal={normal} >
-          <li onClick={visitProjects} >COMPANIES</li>
+          <li onClick={visitProjects} >PROJECTS</li>
           <li onClick={visitAbout} >ABOUT</li>
           <li onClick={visitContact} >CONTACT</li>
         </MenuList>
@@ -152,7 +152,7 @@ function Menu({ about , projects , contact }) {
       <MobileMenuList style={{display: showMenu? "block": "none"}} >
         <MenuListMobile normal={normal} >
           <li onClick={()=>setShowMenu(false)} >+</li>
-          <li onClick={visitProjects} >COMPANIES</li>
+          <li onClick={visitProjects} >PROJECTS</li>
           <li onClick={visitAbout} >ABOUT</li>
           <li onClick={visitContact} >CONTACT</li>
         </MenuListMobile>

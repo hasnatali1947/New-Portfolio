@@ -142,14 +142,15 @@ function Contact({ contact }) {
 
         emailjs
           .send(
-            "shayan_12902",
-            "job_shayan",
+            "service_jd4ppxp",
+            "template_nuhfpuq",
+            
             {
               name: mail.name,
               email: mail.email,
               message: mail.message,
             },
-            "user_JJWJdHtLayDNb7KXtDkMZ"
+            "OE_vivWJlFdO-0YW7"
           )
           .then(
             (result) => {

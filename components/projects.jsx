@@ -361,7 +361,7 @@ function Projects({ projects }) {
       image: bookstore,
       description:
         "Browse our wide selection of books and enjoy secure payments through Stripe for a smooth checkout. From bestsellers to timeless classics, find your next read with ease!",
-      visit: "https://smbdigitalzone.com",
+      visit: "https://book-store-two-flax.vercel.app/",
     },
   ];
 

@@ -483,7 +483,7 @@ function About({ about }) {
         whileInView="whileInView"
         onClick={() =>
           window.open(
-            "https://www.credential.net/1bb697e9-2cfb-4828-a556-04eae77efc21",
+            "https://drive.google.com/file/d/1rGuzntzW1pGbJUA7Wp6U6BnmQsBSAsyE/view?usp=sharing",
             "_blank"
           )
         }
