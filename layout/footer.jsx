@@ -45,7 +45,7 @@ function Footer() {
         <h4>HASNAT</h4>
         <Ul fontSize={normal} >
           <li>
-            <a href="https://drive.google.com/file/d/1GRShvhQKV2DPmqmviwRMuPGIUq26cA_L/view?usp=sharing" target="_blank" >
+            <a href="https://drive.google.com/file/d/1garDmoIfMMKbeHnNlxgZjtYA4kFPqG3O/view?usp=sharing" target="_blank" >
               RESUME
             </a>
           </li>
