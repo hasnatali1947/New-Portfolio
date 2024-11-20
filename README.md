@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-<img src="./portfoliopreview.png" />
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -71,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> <a href="https://www.shayanalibakhsh.com/" >Visit Live</a>
+> <a href="" >Visit Live</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
