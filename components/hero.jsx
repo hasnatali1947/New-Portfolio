@@ -289,7 +289,7 @@ function Hero({ hero, contact }) {
         onMouseOut={mouseout}
         shadow
         icon={robodialog}
-        description="Co-Founder of ROBODIALOG"
+        description="Worked as Front-End Developer at ROBODIALOG"
         width="25px"
         onClick={() => window.open("https://robodialog.com", "_blank")}
       />
