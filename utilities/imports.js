@@ -35,6 +35,7 @@ import skupremeproject from '../assets/images/skupremeproject.png'
 import robodialogproject from '../assets/images/robodialogproject.png'
 import smbproject from '../assets/images/smbproject.png'
 import bookstore from '../assets/images/bookStoreImg.png'
+import weatherApp from '../assets/images/weatherApp.png'
 
 
 export {
@@ -74,5 +75,6 @@ export {
     ruby,
     rails,
     jest,
-    bookstore
+    bookstore,
+    weatherApp,
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { colors } from "../utilities/common";
-import logo from "../assets/images/logoWhite.png";
 import fonts from '../hooks/font'
 
 const FooterComp = styled.footer`
@@ -45,7 +44,7 @@ function Footer() {
         <h4>HASNAT</h4>
         <Ul fontSize={normal} >
           <li>
-            <a href="https://drive.google.com/file/d/1garDmoIfMMKbeHnNlxgZjtYA4kFPqG3O/view?usp=sharing" target="_blank" >
+            <a href="https://drive.google.com/file/d/1EaZlYH5kGIPk6rqS2Tcm1b_KTW1KC1Yv/view?usp=sharing" target="_blank" >
               RESUME
             </a>
           </li>

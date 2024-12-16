@@ -9,7 +9,7 @@ import Footer from "../layout/footer"
 import Navigation from "../layout/navigation"
 import { useRef } from "react"
 import Head from 'next/head'
-import logo from '../assets/images/logoWhite.png'
+// import logo from '../assets/images/logoWhite.png'
 
 const Main = styled.div`
   background-color: ${colors.background};
@@ -33,7 +33,7 @@ export default function Home() {
     <Main>
       <Head>
         <title>Hasnat Portfolio</title>
-        <link rel="icon" href={logo.src} />
+        {/* <link rel="icon" href={logo.src} /> */}
         <title>Hasnat Ali</title>
         <meta name="description" content="Hasnat Ali portfolio website. A web developer full of skills" key="desc" />
         <meta property="og:title" content="Hasnat Ali portfolio" />

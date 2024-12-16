@@ -265,7 +265,7 @@ function Hero({ hero, contact }) {
             transition: { duration: 0.6 },
           }}
         >
-          Experienced <Red>Full-stack Web developer and Co-Founder</Red>, specializing in Next.js and 
+          Experienced <Red>Full-stack Web developer</Red>, specializing in Next.js, React Native and 
           Node.js. I bring ideas to life
         </H3>
         <CustomButton

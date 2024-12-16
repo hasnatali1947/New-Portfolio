@@ -11,6 +11,7 @@ import {
   smbproject,
   bookstore,
   robodialogproject,
+  weatherApp
 } from "../utilities/imports";
 
 const Main = styled.div`
@@ -359,6 +360,13 @@ function Projects({ projects }) {
     {
       name: "Book Store",
       image: bookstore,
+      description:
+        "Browse our wide selection of books and enjoy secure payments through Stripe for a smooth checkout. From bestsellers to timeless classics, find your next read with ease!",
+      visit: "https://book-store-two-flax.vercel.app/",
+    },
+    {
+      name: "Weather App",
+      image: weatherApp,
       description:
         "Browse our wide selection of books and enjoy secure payments through Stripe for a smooth checkout. From bestsellers to timeless classics, find your next read with ease!",
       visit: "https://book-store-two-flax.vercel.app/",
