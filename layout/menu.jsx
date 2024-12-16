@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/images/logo.png";
 import github from "../assets/images/github.png";
 import linkedin from "../assets/images/linkedin.png";
 import list from "../assets/images/list.png";
@@ -13,7 +12,7 @@ const Header = styled.header`
   align-items: center;
   justify-content: center;
   padding: 20px 100px;
-  background-color: ${ colors.background };
+  background-color: ${colors.background};
   width: calc(100% - 200px );
   z-index: 10 ;
   @media (max-width: 769px) {
@@ -27,7 +26,7 @@ const HeaderContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: ${width.maxWidth };
+  max-width: ${width.maxWidth};
 `;
 
 const MenuList = styled.ul`
@@ -39,7 +38,7 @@ const MenuList = styled.ul`
   opacity: 0.7;
   letter-spacing: 1px;
   z-index: 14;
-  font-size: ${({normal})=> normal };
+  font-size: ${({ normal }) => normal};
   transition: 0.3s ease-in-out;
   @media (max-width: 769px) {
     display: none;
@@ -57,7 +56,7 @@ const MenuListMobile = styled.ul`
   padding: 40px;
   font-weight: bold;
   letter-spacing: 1px;
-  font-size: ${({normal})=> normal };
+  font-size: ${({ normal }) => normal};
   transition: 0.3s ease-in-out;
   li {
     margin: 10px 0;
@@ -104,25 +103,25 @@ const SocialLink = styled.div`
   }
 `
 
-function Menu({ about , projects , contact }) {
+function Menu({ about, projects, contact }) {
   const { normal } = fonts()
-  const [ showMenu , setShowMenu ] = useState(false)
+  const [showMenu, setShowMenu] = useState(false)
 
-  function visitProjects(){
+  function visitProjects() {
     setShowMenu(false)
     projects.current.scrollIntoView({
       behavior: "smooth"
     })
   }
 
-  function visitAbout(){
+  function visitAbout() {
     setShowMenu(false)
     about.current.scrollIntoView({
       behavior: "smooth"
     })
   }
 
-  function visitContact(){
+  function visitContact() {
     setShowMenu(false)
     contact.current.scrollIntoView({
       behavior: "smooth"
@@ -147,11 +146,11 @@ function Menu({ about , projects , contact }) {
           <li onClick={visitAbout} >ABOUT</li>
           <li onClick={visitContact} >CONTACT</li>
         </MenuList>
-        <MobileMenu src={list.src} onClick={()=>setShowMenu(true)} />
+        <MobileMenu src={list.src} onClick={() => setShowMenu(true)} />
       </HeaderContainer>
-      <MobileMenuList style={{display: showMenu? "block": "none"}} >
+      <MobileMenuList style={{ display: showMenu ? "block" : "none" }} >
         <MenuListMobile normal={normal} >
-          <li onClick={()=>setShowMenu(false)} >+</li>
+          <li onClick={() => setShowMenu(false)} >+</li>
           <li onClick={visitProjects} >PROJECTS</li>
           <li onClick={visitAbout} >ABOUT</li>
           <li onClick={visitContact} >CONTACT</li>
